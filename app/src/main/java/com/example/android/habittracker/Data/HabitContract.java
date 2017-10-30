@@ -19,6 +19,7 @@ public class HabitContract {
         public static final String COLUMN_HABIT_TIME = "time_spent";
         public static final String COLUMN_HABIT_STATUS = "status";
 
-
+        public static final int STATUS_NOT_COMPLETED = 0;
+        public static final int STATUS_COMPLETED = 1;
     }
 }
